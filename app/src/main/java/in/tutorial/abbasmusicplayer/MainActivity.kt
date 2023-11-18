@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     var startTime = 0.0
     var finalTime = 0.0
     var forwardTime = 10000
-    var backwardTime = 10000
+    var backwardTime = 1000
     var oneTimeOnly = 0
     var handler : Handler = Handler(Looper.getMainLooper())
     var mediaPlayer = MediaPlayer()
